@@ -1,0 +1,92 @@
+.core-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+
+  .statistics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 50%;
+
+    .stat-box {
+      background: #fff;
+      border-radius: 8px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: all 0.3s ease;
+
+      h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+
+        &:nth-child(1) {
+          color: #f39c12; // Orange
+        }
+        &:nth-child(2) {
+          color: #e74c3c; // Red
+        }
+        &:nth-child(3) {
+          color: #9b59b6; // Purple
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: #7d7d7d;
+      }
+
+      // Hover effect
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        background: #fdfdfd; // Slightly lighter background on hover
+      }
+    }
+  }
+
+  .content {
+    max-width: 40%;
+    text-align: left;
+
+    h6 {
+      color: #f39c12;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #7d7d7d;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .explore-btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+      color: #fff;
+      background-color: #f39c12;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #d87b0f;
+      }
+    }
+  }
+}

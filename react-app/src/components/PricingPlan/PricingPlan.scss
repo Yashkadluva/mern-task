@@ -1,0 +1,110 @@
+.pricing-plan {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+  
+    .subtitle {
+      font-size: 0.875rem;
+      color: #fd7e14;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  
+    .title {
+      font-size: 1.75rem;
+      color: #212529;
+      font-weight: bold;
+    }
+  
+    .plan-card {
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+      background-color: #fff;
+      text-align: center;
+      transition: transform 0.2s;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      .plan-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #212529;
+      }
+  
+      .plan-subtitle {
+        font-size: 0.875rem;
+        color: #6c757d;
+        margin-bottom: 1rem;
+      }
+  
+      .features-list {
+        list-style: none;
+        padding: 0;
+        margin: 1.5rem 0;
+        text-align: left;
+  
+        li {
+          font-size: 0.875rem;
+          color: #212529;
+          margin-bottom: 0.5rem;
+  
+          &::before {
+            content: '✔';
+            color: #28a745;
+            margin-right: 0.5rem;
+          }
+  
+          &.disabled {
+            color: #adb5bd;
+  
+            &::before {
+              content: '✖';
+              color: #adb5bd;
+            }
+          }
+        }
+      }
+  
+      .cta-button {
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: #ffe5cc;
+        color: #fd7e14;
+        border: none;
+        padding: 0.75rem 1.5rem;
+  
+        &:hover {
+          background-color: #fd7e14;
+          color: #fff;
+        }
+      }
+    }
+  
+    .premium {
+      border: 2px solid #28a745;
+  
+      .badge {
+        background-color: #fd7e14;
+        color: #fff;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+  
+      .price {
+        font-size: 2rem;
+        color: #28a745;
+        margin: 1rem 0;
+        font-weight: bold;
+      }
+    }
+  }
+  

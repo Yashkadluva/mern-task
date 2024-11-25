@@ -1,0 +1,126 @@
+.hero-section {
+    .header {
+      .custom-navbar {
+        background: linear-gradient(90deg, #f7fbff, #fff8f0);
+        padding: 1rem 0;
+  
+        .brand-logo {
+          font-weight: bold;
+          font-size: 1.5rem;
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+  
+          img {
+            height: 30px;
+          }
+        }
+  
+        .nav-link {
+          font-size: 1rem;
+          font-weight: 500;
+          color: #000;
+          margin-left: 1.5rem;
+  
+          &:hover {
+            color: #ff7a00;
+          }
+        }
+  
+        .try-free-btn {
+          font-size: 0.9rem;
+          font-weight: bold;
+          color: #fff;
+          background-color: #ff7a00;
+          border: none;
+          padding: 0.5rem 1.5rem;
+          border-radius: 20px;
+  
+          &:hover {
+            background-color: #e66a00;
+          }
+        }
+      }
+    }
+  
+    .hero-content {
+      padding: 4rem 0;
+  
+      .text-section {
+        .trusted-by {
+          font-size: 0.9rem;
+          color: #666;
+          margin-bottom: 1rem;
+        }
+  
+        h1 {
+          font-size: 2.5rem;
+          font-weight: bold;
+  
+          .highlight {
+            color: #ff7a00;
+            text-decoration: underline;
+          }
+        }
+  
+        .description {
+          font-size: 1rem;
+          color: #666;
+          margin: 1.5rem 0;
+        }
+  
+        .search-bar {
+          margin-top: 2rem;
+          input {
+            border: 1px solid #ddd;
+            border-right: none;
+            border-radius: 5px 0 0 5px;
+          }
+          button {
+            background-color: #ff7a00;
+            border: none;
+            color: #fff;
+  
+            &:hover {
+              background-color: #e66a00;
+            }
+          }
+        }
+  
+        .sponsored {
+          margin-top: 1.5rem;
+          font-size: 0.9rem;
+          color: #888;
+  
+          img {
+            height: 20px;
+            margin-left: 1rem;
+          }
+        }
+      }
+  
+      .image-section {
+        .image-wrapper {
+          position: relative;
+  
+          .main-image {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          }
+  
+          .overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            border: 2px solid #ff7a00;
+            z-index: -1;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  

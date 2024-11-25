@@ -1,0 +1,53 @@
+.footer-section {
+    background-color: #f8f9fa;
+  
+    .heading {
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #212529;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      font-weight: 500;
+      background-color: #ffe5cc;
+      color: #fd7e14;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      &:hover {
+        background-color: #fd7e14;
+        color: #fff;
+      }
+    }
+  
+    hr {
+      border-top: 1px solid #dee2e6;
+      margin: 2rem 0;
+    }
+  
+    .footer-links {
+      h5 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #212529;
+      }
+  
+      ul {
+        list-style: none;
+        padding: 0;
+  
+        li {
+          font-size: 0.875rem;
+          color: #6c757d;
+          margin-bottom: 0.5rem;
+          &:hover {
+            color: #fd7e14;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  
